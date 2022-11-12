@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.file"><![CDATA[Datei]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.file"><![CDATA[Datei gelöscht]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.file"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Datei „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Eine Datei von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, die mittlerweile gelöscht ist.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.file"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Datei „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Eine Datei von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.download"><![CDATA[Download]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.download"><![CDATA[{if $statement->getObject()->getTitle()}Jemand hat {if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Datei „{$statement->getObject()->getTitle()}“ heruntergeladen.{else}Jemand hat eine Datei von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} heruntergeladen, die mittlerweile gelöscht ist.{/if}]]></item>
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.download.user"><![CDATA[Benutzer-Download]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.download.user"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} die Datei „{$statement->getObject()->getTitle()}“ heruntergeladen.{else}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} eine Datei heruntergeladen, die mittlerweile gelöscht ist.{/if}]]></item>
-		
-		<!-- wcf.jcoins.statement.category -->
-		<item name="wcf.jcoins.statement.category.com.uz.jcoins.filebase"><![CDATA[VieCode Filebase]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.file"><![CDATA[Datei]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.file"><![CDATA[Datei gelöscht]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.file"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Datei „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Eine Datei von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, die mittlerweile gelöscht ist.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.file"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Datei „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Eine Datei von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.download"><![CDATA[Download]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.download"><![CDATA[{if $statement->getObject()->getTitle()}Jemand hat {if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Datei „{$statement->getObject()->getTitle()}“ heruntergeladen.{else}Jemand hat eine Datei von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} heruntergeladen, die mittlerweile gelöscht ist.{/if}]]></item>
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.download.user"><![CDATA[Benutzer-Download]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.download.user"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} die Datei „{$statement->getObject()->getTitle()}“ heruntergeladen.{else}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} eine Datei heruntergeladen, die mittlerweile gelöscht ist.{/if}]]></item>
+
+        <!-- wcf.jcoins.statement.category -->
+        <item name="wcf.jcoins.statement.category.com.uz.jcoins.filebase"><![CDATA[VieCode Filebase]]></item>
+    </category>
 </language>
